@@ -1,0 +1,25 @@
+***Pasos para instalacion y compilacion de asterisk***
+
+a) cd /usr/src
+
+b) wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-13-current.tar.gz
+
+c) tar -xzvf asterisk-13-current.tar.gz
+
+d) cd asterisk-13.5.0/
+
+e) ./contrib/scripts/install_prereq install
+
+f) ./bootstrap.sh
+
+g) ./configure
+
+h) make
+
+i) make install
+
+j) make samples
+
+k) make config
+
+l) asterisk -r
